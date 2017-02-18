@@ -2,7 +2,7 @@ class Maclock < Formula
   desc "Triggers Immediate screen lock on macOS"
   homepage "https://github.com/jcostom/maclock"
   url "https://github.com/jcostom/maclock/archive/0.1.1.tar.gz"
-  sha256 "c0564982802ef2732a54566f3e8378171b77b2dcaee26e26766ea8689af94022"
+  sha256 "c0ca05dec8be505e502e1a1d6504f3b8e26fd863220ece250eda3091bd71579f"
 
   def install
     system ENV.cc, "-framework", "Foundation", "maclock.m", "-o", "maclock"
